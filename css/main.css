@@ -1319,7 +1319,7 @@ span.meta-date{
 
 
 .info-holder {
-    border: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
     padding: 20px;
     text-align: center;
 }

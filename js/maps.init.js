@@ -19,7 +19,7 @@
             var styles = [
                 {
                     stylers: [
-                        { saturation: -100 }
+                        { saturation: -50 }
                     ]
                 }, {
                     featureType: 'road',
@@ -36,8 +36,8 @@
                     ]
                 }
             ],
-                lat = -33.867487,
-                lng = 151.20699,
+                lat = -23.708297,
+                lng = -46.694623,
                 customMap = new google.maps.StyledMapType(styles,
                     { name: 'Styled Map' }),
                 mapOptions = {

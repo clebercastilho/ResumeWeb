@@ -9,6 +9,12 @@
 
 	$(document).ready(function () {
 
+		//------------------------------------- IDADE ------------------------------------------------//
+		var atual = new Date();
+		var nasc = new Date('1983-07-16 00:00:00');
+		var idade = new Date(atual - nasc).getFullYear() - 1970;
+		$('#myIdade').html(idade.toString() + ' anos');
+
 		//------------------------------------- Site slider ------------------------------------------------//
 		$("#testimonial-carousel").owlCarousel({
 			navigation: false,
@@ -157,7 +163,6 @@
 				$('.styler').animate({
 					left: '-278px'
 				});
-
 			}
 		});
 	});
